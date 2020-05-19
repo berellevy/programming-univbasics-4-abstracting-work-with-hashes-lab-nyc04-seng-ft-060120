@@ -13,4 +13,5 @@ def update_counting_hash(hash, key)
     else
         hash[key]
     end
+    return hash
 end
